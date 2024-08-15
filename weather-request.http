@@ -1,0 +1,10 @@
+### Get Weather Forecast
+# GET https://api.open-meteo.com/v1/forecast?latitude=42.90208&longitude=143.20086&daily=temperature_2m_max,temperature_2m_min&timezone=auto
+
+
+# GET https://api.open-meteo.com/v1/forecast?latitude=43.52755&longitude=142.84890&daily=temperature_2m_max,temperature_2m_min&timezone=auto
+# GET https://api.open-meteo.com/v1/forecast?latitude=42.9172&longitude=143.2044&hourly=weather_code&daily=temperature_2m_max,temperature_2m_min&timeformat=unixtime&timezone=Asia%2FTokyo
+
+# GET https://api.open-meteo.com/v1/forecast?latitude=42.9172&longitude=143.2044&current=temperature_2m,relative_humidity_2m&daily=weather_code,temperature_2m_max,temperature_2m_min&timeformat=unixtime&timezone=Asia%2FTokyo
+
+GET https://api.open-meteo.com/v1/forecast?latitude=42.9172&longitude=143.2044&current=temperature_2m,relative_humidity_2m&daily=weather_code&timeformat=unixtime&timezone=Asia%2FTokyo
